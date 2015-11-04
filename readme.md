@@ -14,18 +14,18 @@ git clone [https://github.com/dgaleano/surveytest.git](https://github.com/dgalea
 
 Change the working directory to the project
 
-cd survey/
+_cd surveytest/_
 
 Intalling the laravel dependencies
 
-php composer install
+_php composer install_ this will download the dependencies this can late depending of your internet connection
 
 Now we execute the below script for install database
 
-./install_db
+_./install_db_
 
 now run the server
 
-php -S localhost:8000 -t public/
+_php -S localhost:8000 -t public/_
 
     
