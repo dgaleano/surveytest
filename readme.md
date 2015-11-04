@@ -5,6 +5,7 @@
 * php5-mcrypt
 * php5-mysql
 * php5-pdo
+* mysql
 
 ## Instructions
 

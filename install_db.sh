@@ -7,7 +7,7 @@ read -s password_mysql
 echo
 mysql -u $user_db -p$password_mysql -e "create database survey"
 mysql -u $user_db -p$password_mysql survey < survey.sql
-cat < .env.php <<EOF
+cat > .env.php <<EOF
 <?php
 return array(
     'DBhost' => 'localhost',
