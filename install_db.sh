@@ -10,10 +10,10 @@ mysql -u $user_db -p$password_mysql survey < survey.sql
 cat > .env.php <<EOF
 <?php
 return array(
-    'DBhost' => 'localhost',
-    'DBname' => 'survey',
-    'DBuser' => $user_db,
-    'DBpass' => $password_mysql,
+    'DBhost' => "localhost",
+    'DBname' => "survey",
+    'DBuser' => "$user_db",
+    'DBpass' => "$password_mysql",
 );
 ?>
 EOF
