@@ -23,7 +23,7 @@ _php composer install_ this will download the dependencies this can late dependi
 
 Now we execute the below script for install database
 
-_./install_db_
+_./install_db.sh_
 
 now run the server
 
