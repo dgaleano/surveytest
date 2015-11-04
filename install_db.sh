@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 echo "Please write the user of mysql:"
 read user_db
 echo "Please write the pass of mysql:"
